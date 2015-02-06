@@ -1,0 +1,76 @@
+body,
+html {
+	font-family: "Amatic SC", Times, cursive;
+	color: #FFF;
+	font-size: 40px;
+	line-height: 35px;
+	min-height: 100%;
+}
+
+body {
+	margin: auto; /* removes border thickness */
+	background: url("../images/boston.jpg") center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat; 
+	background-size: cover; 
+}
+
+h1 {
+	font-size: 100px;
+	text-align: center;
+}
+
+.top-header {
+	width: 100%;
+	max-width: 960px;
+	color: #FFF;
+	text-shadow: 10px 10px rgba(0,0,0,.5);
+	margin: 300px auto;
+	text-align: center;
+}
+
+.special {
+	width: 100%;
+	height: 900px;
+}
+
+#wrapper {
+	padding: 0px;
+	background-color: rgba(0,0,0,0.80);
+	background-size: contain;
+	overflow: auto; /* necessary for "clearing" the floats contained within */
+}
+
+#wrapper2 {
+	background-color: grey;
+	background-size: contain;
+	overflow: auto;
+}
+
+#wrapper3 {
+	background-color: white;
+	background-size: cover; 
+	overflow: auto;
+}
+
+img.box {
+	width: 50%;
+	height: 500px;
+	float: left;
+}
+
+a {
+	color: orange; /* links */
+}
+
+a:hover {
+	color: red;/* links when mouse over */
+}
+
+p.pr-bubble {
+	background-color: lightblue;
+	padding: 10px;
+	width: auto;
+	margin: 100px;
+	float: center; /* allows flexibility to stack items into columns */
+}
